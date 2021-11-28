@@ -13,7 +13,7 @@ This application creates a web page that displays each team members information,
             <a href="#built-with">Built With</a>
         </li>
         <li>
-            <a href="#installation">Installation</a>
+            <a href="#usage">Usage</a>
         </li>
     </ul>
 </details>
@@ -25,11 +25,33 @@ This application was built using:
 * [Node.js](https://nodejs.org/en/)
 * [JQuery](https://jqueryui.com/)
 * [Bootstrap](https://getbootstrap.com/docs/5.1/utilities/spacing/)
-* [Inquirer](https://www.npmjs.com/package/inquirer)]
+* [Inquirer](https://www.npmjs.com/package/inquirer)
+* [Jest](https://www.npmjs.com/package/jest)
 
-## Installation
+## Usage 
 
-To use this application, you must download the files from the repository.
+To use this application, you must download the files from the repository and have the ``Built with`` programs installed.
 
+Once everything is installed, using the index.js file, in the terminal you will run it using node:
+```
+node index.js
+```
+
+Follow the prompts 
+
+[img]
+
+Once finished, the html page will be located in the ``dist`` folder along with the CSS file.
+
+## License
 
 ![badge](https://img.shields.io/npm/l/node?color=blue&style=for-the-badge)
+
+## Contact
+
+Antonia Garcia - antoniag227@gmail.com
+
+## Acknowledgements
+
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
