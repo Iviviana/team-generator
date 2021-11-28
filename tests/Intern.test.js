@@ -2,12 +2,12 @@ const Intern=require('../lib/intern')
 
 //test for intern object
 
-test('creates intern object',(=>{
+test('creates intern object',()=>{
     const intern=new Intern('Antonia',3,'toni@me.com','UM');
 
     expect(intern.school).toEqual(expect.any(String));
 
-}));
+});
 
 //test for getSchool
 test('gets employees school',()=>{
@@ -19,7 +19,7 @@ test('gets employees school',()=>{
 
 //test for getRole
 test('get role from employee',()=>{
-    const manager=new Manager('Antonia',1,'toni@me.com');
+    const intern=new Intern('Antonia',1,'toni@me.com');
 
-    expect(manager.getRole()).toEqual('Manager');
+    expect(intern.getRole()).toEqual('Intern');
 })

@@ -39,9 +39,15 @@ node index.js
 
 Follow the prompts 
 
-[img]
+![image shows questions prompted by index.js](./dist/indexnode.png)
 
 Once finished, the html page will be located in the ``dist`` folder along with the CSS file.
+
+If any issues arise, there is a tests folder that contains tests for each employee class.
+
+![image shows tests passing the test run](./dist/testrun.png)
+
+[Here](https://watch.screencastify.com/v/yEixDr2Eh9qH6AJCK5Oo) is a video showing how to use the application, and how to run tests provided.
 
 ## License
 
